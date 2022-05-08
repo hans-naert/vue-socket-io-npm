@@ -1,24 +1,14 @@
 # vue-socket-io-npm
 
-## Project setup
-```
-npm install
-```
+## created Vue.js App
+`vue create vue-socket-io-npm`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## install socket.io-client
+`npm install socket.io-client`
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## App.vue
+importing socket.io-client
+connecting with socket.io server (localhost:3000 )
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## starting server
+in this project there is no socket.io server included, use the project https://github.com/hans-naert/vue-socket-io
